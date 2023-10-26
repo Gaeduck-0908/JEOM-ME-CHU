@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>점메추</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">점메추</h1>
+        <div class="input-group mb-3 mt-5">
+            <input type="text" id="foods" class="form-control" placeholder="음식을 ','로 구분하여 입력하세요">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" onclick="randomSelect()">추천 시작</button>
+            </div>
+        </div>
+        <div id="result" class="mt-5 text-center"></div>
+    </div>
+    <div id="waves">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./JS/script.js"></script>
+</body>
+</html>
